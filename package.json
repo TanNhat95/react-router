@@ -6,6 +6,7 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
+    "start:csr": "vite preview",
     "typecheck": "react-router typegen && tsc",
     "prettier": "prettier --check .",
     "prettier:write": "prettier --write .",
